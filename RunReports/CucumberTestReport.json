@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2882380881,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "Feature01.launchHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2095651248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Simple sign in scenario",
+        "description": "",
+        "id": "application-tests-that-covers;simple-sign-in-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 107156542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.captureScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1780283613,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on SignIn button",
+            "match": {
+              "location": "Feature01.clickSignInBtn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37896156,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be on the Authentication page",
+            "match": {
+              "location": "Feature01.authenticationPageNavigation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339595987,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter credentials",
+            "match": {
+              "location": "Feature01.enterCredentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "UserName01"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Password01"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098489873,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on LogIn button",
+            "match": {
+              "location": "Feature01.logIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27140480,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be on the MyAccount page",
+            "match": {
+              "location": "Feature01.myAccountPageNavigation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1302591459,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on SignOut button",
+            "match": {
+              "location": "Feature01.signOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@test1"
+          },
+          {
+            "line": 7,
+            "name": "@ignore"
+          }
+        ]
+      }
+    ],
+    "name": "Application tests that covers",
+    "description": "Links Presence, Successful Registration, Unsuccessful Registration",
+    "id": "application-tests-that-covers",
+    "keyword": "Feature",
+    "uri": "Feature01.feature"
+  }
+]
