@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.testRunner3" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-12T21:52:24" hostname="WKMGB6532979" time="6.282">
+  <properties/>
+  <testcase name="feature[0](Application tests that covers)" classname="runners.testRunner3" time="6.282"/>
+  <system-out><![CDATA[Feature: Application tests that covers
+  clicks and title using scenario Outline
+2020-04-12 22:52:25,867 [Test worker] INFO  stepDefinitions.BeforeAfterHooks - Clear cookies -- start
+2020-04-12 22:52:25,880 [Test worker] INFO  stepDefinitions.BeforeAfterHooks - Clear cookies -- end
+
+  Background:                  ?[90m# features/Feature02.feature:4?[0m
+    ?[32mGiven ?[0m?[32mI am on the HomePage?[0m ?[90m# Feature01.launchHomePage()?[0m
+
+  #		|UserName02|Password02|
+  @test3
+  Scenario: out sc ex                      ?[90m# features/Feature02.feature:22?[0m
+    ?[32mWhen ?[0m?[32mI click on women button?[0m           ?[90m# Feature02.selectType()?[0m
+    ?[32mThen ?[0m?[32mI should see WomenTitle displayed?[0m ?[90m# Feature02.validateWomenTitle()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 28101
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 12, 2020 10:52:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586728346.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728346.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728346.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.004][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.405][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.746][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728347.981][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586728348.087][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>
