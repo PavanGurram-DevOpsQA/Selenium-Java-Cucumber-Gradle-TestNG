@@ -1,75 +1,80 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Feature02);
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature01.feature");
 formatter.feature({
   "line": 1,
   "name": "Application tests that covers",
   "description": "Links Presence, Successful Registration, Unsuccessful Registration",
   "id": "application-tests-that-covers",
-  "keywo
+  "key);
 formatter.before({
-  "duration": 20{
-  "duration": 2095651248,
-  "statformatter.background({
+  "duration": 27{
+  "duration": 2733972437,
+  "s);
+formatter.background({
+  "line": 4,
+  "{
   "line": 4,
   "name": "",
   "description": "",
   "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
+  "keyword":formatter.step({
+  "line": 5,
+  "{
   "line": 5,
   "name": "I am on the HomePage",
-  "keyword": "Given "
-});
+  "ke);
 formatter.match({
   "location": "Feature01.launchHomePage()"
 });
-formatter.result({formatter.result({
-  "duration": 2882380881,
+formatter.result({
+  "duration": 3166604620,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
-  "name": "Simple sign in scenario",
+  "comments": [
+    {
+      "line": 19,
+      "value": "#\t\t|UserName02|Password02|"
+    }
+  ],
+  "line": 22,
+  "name": "out sc ex",
   "description": "",
-  "id": "application-tests-that-covers;simple-sign-in-scenario",
+  "id": "application-tests-that-covers;out-sc-ex",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 7,
-      "name": "@test1"
-    },
-    {
-      "line": 7,
-      "name": "@ignore"
+      "line": 21,
+      "name": "@test3"
     }
   ]
 });
 formatter.step({
-  "line": 9,
-  "name": "I click on SignIn button",
+  "line": 23,
+  "name": "I click on women button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
-  "name": "I should be on the Authentication page",
+  "line": 24,
+  "name": "I should see WomenTitle displayed",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 11,
-  "name": "I enter credeformatter.result({
-  "duration": 2387517546,
+formatter.match({
+  "location": "Feature02.selectType()"
+});
+formatter.result({
+  "duration": 1870171093,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature02.validateWomenTitle()"
 });
 formatter.result({
-  "duration": 13080830,
+  "duration": 13042236,
   "status": "passed"
 });
 formatter.after({
-  "duration": 111138452,
+  "duration": 105298390,
   "status": "passed"
 });
 });ame": "I click on LogIn button",
@@ -89,46 +94,46 @@ formatter.match({
   "location": "Feature01.clickSignInBtn()"
 });
 formatter.result({
-  "duration": 1780283613,
+  "duration": 1358975101,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature01.authenticationPageNavigation()"
 });
 formatter.result({
-  "duration": 37896156,
+  "duration": 70710383,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature01.enterCredentials(DataTable)"
 });
 formatter.result({
-  "duration": 339595987,
+  "duration": 214837963,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature01.logIn()"
 });
 formatter.result({
-  "duration": 1098489873,
+  "duration": 1267656788,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature01.myAccountPageNavigation()"
 });
 formatter.result({
-  "duration": 27140480,
+  "duration": 28411385,
   "status": "passed"
 });
 formatter.match({
   "location": "Feature01.signOut()"
 });
 formatter.result({
-  "duration": 1302591459,
+  "duration": 1629208191,
   "status": "passed"
 });
 formatter.after({
-  "duration": 107156542,
+  "duration": 97970938,
   "status": "passed"
 });
 });
