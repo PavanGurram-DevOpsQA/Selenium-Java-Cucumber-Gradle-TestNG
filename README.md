@@ -1,4 +1,4 @@
-1. Framework comprise of the below
+1. It is Base and simple Framework comprise of the below
     a. Selenium
     b. Java
     c. Cucumber
